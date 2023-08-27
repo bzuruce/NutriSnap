@@ -17,6 +17,6 @@ Welcome to the Food Nutrition Detector! This project offers an effective way for
 - Nutrition Data Retrieval: Get a detailed breakdown of calories, macronutrients, and more for the identified food.
 - Dark Mode (Only changable through code): Go to `/templates/index.html` and edit the file:
 Dark Mode:
-```5  % extends "base-dark.html" %}```
+5  % extends "base-dark.html" %}
 Light Mode:
-```5  {% extends "base.html" %}```
+5  {% extends "base.html" %}
