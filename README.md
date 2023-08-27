@@ -1,3 +1,5 @@
+based off rohandesai1/NutriSnap
+
 # **NutriSnap**
 Welcome to the Food Nutrition Detector! This project offers an effective way for users to capture photos of their food and retrieve nutritional data about it. Powered by custom Convolutional Neural Networks, along with various other Python libraries, the goal is to make tracking your food intake as effortless as taking a snapshot.
 
@@ -13,3 +15,8 @@ Welcome to the Food Nutrition Detector! This project offers an effective way for
 - Image Capture: Use your device's camera to take a picture of your food.
 - Deep Learning Analysis: The TensorFlow model identifies the food items in the picture.
 - Nutrition Data Retrieval: Get a detailed breakdown of calories, macronutrients, and more for the identified food.
+- Dark Mode (Only changable through code): Go to `/templates/index.html` and edit the file:
+  ```Dark Mode:
+5  % extends "base-dark.html" %}
+Light Mode:
+5  {% extends "base.html" %}```
